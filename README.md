@@ -5,10 +5,11 @@ It has two APIs, both HTTP post requests.
     a) "N": Number of lines to fetch from the password dump.
     b) file_name": Name/path of the password dump to be processed
     c) "sampleType": "random", "last" or "first". Option to fetch N random, last or first lines.
-    ![getSample](https://github.com/AbhishekHerle/Samplecode/blob/master/doProcessing.PNG)
+    ![getSample](https://github.com/AbhishekHerle/Samplecode/blob/master/getSample.PNG)
     
  2) http://127.0.0.1:8000/PP/processor/doProcessing/ - Requests contain the following:
     a) "file_name": Name/path of the password dump to be processed
-	  b) "patterns": List of GROK patterns to be applied to the password dump
+    b) "patterns": List of GROK patterns to be applied to the password dump
+    ![doProcessing]((https://github.com/AbhishekHerle/Samplecode/blob/master/doProcessing.PNG))
 
-Primary aim is to use the getSample API to peek into the file and then determine the sort of GROK patterns that will fit the need. Refer to doProcessing.PNG and getSample.PNG
+Primary aim is to use the getSample API to peek into the file and then determine the sort of GROK patterns that will fit the need.
