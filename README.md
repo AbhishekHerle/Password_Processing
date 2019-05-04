@@ -10,6 +10,6 @@ It has two APIs, both HTTP post requests.
  2) http://127.0.0.1:8000/PP/processor/doProcessing/ - Requests contain the following:
     a) "file_name": Name/path of the password dump to be processed
     b) "patterns": List of GROK patterns to be applied to the password dump
-    ![doProcessing]((https://github.com/AbhishekHerle/Samplecode/blob/master/doProcessing.PNG))
+    ![doProcessing](https://github.com/AbhishekHerle/Samplecode/blob/master/doProcessing.PNG)
 
 Primary aim is to use the getSample API to peek into the file and then determine the sort of GROK patterns that will fit the need.
