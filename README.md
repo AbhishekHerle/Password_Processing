@@ -1,0 +1,1 @@
+Short set of APIs for processing password dumps in python using the Django framework. This project uses Grok patterns (using the PyGrok library) to search for passwords in password dumps and then retrieve user passwords as well as other well as other associated user information such as usernames, email addresses and so.
